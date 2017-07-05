@@ -22,10 +22,10 @@ conda update --yes conda pip
 
 echo "Installing additional pre-built packages"
 conda install --yes \
-	pyqt=4 \
+	pyqt \
 	numpy \
 	scipy \
-	matplotlib=1.4.3 \
+	matplotlib \
 	python-dateutil \
 	pytz \
 	pyparsing \
@@ -81,7 +81,7 @@ cd ..
 
 
 echo "Installing Oasys..."
-pip install oasys
+pip install oasys1
 
 exit
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - -
